@@ -20,5 +20,15 @@ body{
 #header {
     height: calc(100vh - 40px);
     width: 100%;
-    background: red
+    background: url(../images/mt-kenya.jpg);
+    background-position: center;
+    background-size: 100% auto;
+    position: relative;
+}
+
+#header .overlay {
+    background: rgba(0,0,0,0.4);
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
